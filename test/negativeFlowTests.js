@@ -34,6 +34,7 @@ describe("Negative flow tests", function () {
         result.should.not.equal(defaultResult);
     });
 
+    // On mac os this case passes and doesn't close the browser instance. Just to mention this.
     it("get negative verification with only 2 buttons", async function() {
         await homepage.clickButtonB1();
         await homepage.clickButtonB2();

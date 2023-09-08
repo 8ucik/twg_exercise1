@@ -8,7 +8,6 @@ const trailCodeXpath = "//td[3]/code";
 const verificationMessageXpath = "//*[@id='trail']/code";
 const trailCodeCheckButtonId = "solution";
 
-
 class HomePage extends BasePage{
     async enterUrl(url){
         await this.goToUrl(url);

@@ -13,7 +13,7 @@ describe("Happy flow tests", function () {
         homepage.closeBrowser();
     });
     
-    it("get successful verification on button trail ", async function () {
+    it("get successful verification on button trail", async function () {
         let code = await homepage.getTrailCode();
         await homepage.followGoodCodeTrail(code);
         await homepage.clickCheckSolutionButton();
